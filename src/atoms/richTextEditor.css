@@ -1,0 +1,61 @@
+.selectedBtn {
+    background-color: #7eb8eb !important;
+    border-color: rgba(159, 150, 243, 0.15) !important;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px !important;
+    color: rgba(25, 6, 136, 0.65) !important;
+}
+
+.richTextEditor {
+    background-color: #FFFFFF;
+  border: 1px solid rgba(40, 37, 37, 0.1);
+  border-radius: .25rem;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight:lighter;
+}
+
+.richTextLabel {
+    margin-bottom: 6px;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight:normal;
+}
+
+/* CSS */
+.btn {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(40, 37, 37, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 4px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 4px;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 24px;
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+/* .btn:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+} */
